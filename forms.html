@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="assets/images/sml3.png" type="image">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.css">
+</head>
+
+<body>
+    <main id="chat__main">
+        <header id="hm__header" class="chat__top__header">
+            <div id="hm__dshb__name">my dashboard</div>
+            <div id="hm__search">
+                <form action="">
+                    <input type="text" name="" id="">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+            <a href="" id="hm__menu__btn" class="hm__menu__btn">
+                <i class="fas fa-bars"></i>
+            </a>
+        </header>
+        <nav id="hm__sidebar" class="hm__sidebar">
+            <header id="hm__user__info">
+                <img src="assets/images/dummy.png" alt="user display image" id="hm__dp">
+                <section>
+                    <div id="hm__user__name">emilly grace</div>
+                    <div id="hm__user__title">admim</div>
+                </section>
+            </header>
+            <section id="hm__nav">
+                <ul>
+                    <li class="hm__nav__item">
+                        <a href="index.html" class="hm__nav__link">
+                            <span class="hm__nav__icon"><i class="fas fa-home"></i></span><span class="hm__nav__cont">Home</span>
+                        </a>
+                    </li>
+                    <li class="hm__nav__item">
+                        <a href="forms.html" class="hm__nav__link">
+                            <span class="hm__nav__icon"><i class="fas fa-code"></i></span><span class="hm__nav__cont">Code</span>
+                        </a>
+                    </li>
+                    <li class="hm__nav__item">
+                        <a href="gallary.html" class="hm__nav__link">
+                            <span class="hm__nav__icon"><i class="fas fa-camera"></i></span><span class="hm__nav__cont">Media</span>
+                        </a>
+                    </li>
+                    <li class="hm__nav__item">
+                        <a href="chat.html" class="hm__nav__link">
+                            <span class="hm__nav__icon"><i class="fas fa-message"></i></span><span class="hm__nav__cont">Chat</span>
+                        </a>
+                    </li>
+                    <li class="hm__nav__item">
+                        <a href="tables.html" class="hm__nav__link">
+                            <span class="hm__nav__icon"><i class="fas fa-gear"></i></span><span class="hm__nav__cont">setting</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </nav>
+        <section id="forms__sec">
+            <article id="form__registration">
+                <header>Sign up section</header>
+                <form action="" id="sign__up">
+                    <div class="signup__div" id="signup__email__div">
+                        <input type="email" id="signup__email" placeholder="email">
+                    </div>
+                    <div class="signup__div" id="signup__username__div">
+                        <input type="text" id="signup__username" placeholder="username">
+                    </div>
+                    <div class="signup__div" id="signup__pwrd__div">
+                        <input type="password" id="signup__pwrd" placeholder="password">
+                    </div>
+                    <div class="signup__div" id="signup__conf__pwrd__div">
+                        <input type="password" name="" id="signup__conf__pwrd" placeholder="confirm password">
+                    </div>
+                    <div class="signup__div" id="signup__flname__div">
+                        <input type="text" id="signup__flname" placeholder="first name">
+                    </div>
+                    <div class="signup__div" id="signup__dp__div">
+                        <label for="signup__dp" id="signup__dp__label"><i class="fas fa-camera"></i></label>
+                        <input type="file" name="" id="signup__dp">
+                    </div>
+                    <input type="submit" value="create account" id="signup__submit">
+
+                </form>
+            </article>
+            <article id="form__login">
+                <header>login to proceed</header>
+                <form action="" id="login">
+                    <input type="text" name="" id="form__login__email" placeholder="email">
+                    <input type="password" name="" id="form__login__pwrd" placeholder="password">
+                    <label for="form__login__remember__me" id="form__login__remember__me__label">Remember me</label>
+                    <a href="" id="login__forgot__pwrd">
+                        forgot password?
+                    </a>
+                    <input type="checkbox" name="" id="form__login__remember__me">
+                    <input type="submit" value="LOGIN" id="form__login__submit">
+                    <div id="login__signup">New user? <a href="" id="login__signup__link">Sign Up</a></div>
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
